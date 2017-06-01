@@ -1,0 +1,5 @@
+http://stackoverflow.com/questions/2561368/illegal-token-on-right-side-of/2561377#2561377
+Place #undef max and #undef min just before the function and try again.
+
+
+also include <array>

@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/MyImages">
+        <file>SteerLabel.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,15 @@
+﻿Build started 2/22/2017 2:41:41 PM.
+     1>Project "E:\projects\vsProjects\AdvancedLaneDetection\AdvancedLaneDetection\AdvancedLaneDetection\AdvancedLaneDetection.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\programs\visualStudio\VC\bin\x86_amd64\CL.exe /c /I"E:\programs\armadillo-7.700.0\include" /IE:\programs\opencv\build\include /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt PipeLine.cpp
+         PipeLine.cpp
+     1>PipeLine.cpp(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>PipeLine.cpp(180): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+       Link:
+         E:\programs\visualStudio\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\projects\vsProjects\AdvancedLaneDetection\AdvancedLaneDetection\x64\Debug\AdvancedLaneDetection.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:\programs\armadillo-7.700.0\examples\lib_win64" /LIBPATH:E:\programs\opencv\build\x64\vc12\lib opencv_calib3d2410d.lib opencv_contrib2410d.lib opencv_core2410d.lib opencv_features2d2410d.lib opencv_flann2410d.lib opencv_gpu2410d.lib opencv_highgui2410d.lib opencv_imgproc2410d.lib opencv_legacy2410d.lib opencv_ml2410d.lib opencv_nonfree2410d.lib opencv_objdetect2410d.lib opencv_ocl2410d.lib opencv_photo2410d.lib opencv_stitching2410d.lib opencv_superres2410d.lib opencv_ts2410d.lib opencv_video2410d.lib opencv_videostab2410d.lib blas_win64_MT.lib lapack_win64_MT.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\projects\vsProjects\AdvancedLaneDetection\AdvancedLaneDetection\x64\Debug\AdvancedLaneDetection.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\projects\vsProjects\AdvancedLaneDetection\AdvancedLaneDetection\x64\Debug\AdvancedLaneDetection.lib" /MACHINE:X64 x64\Debug\PipeLine.obj
+         AdvancedLaneDetection.vcxproj -> E:\projects\vsProjects\AdvancedLaneDetection\AdvancedLaneDetection\x64\Debug\AdvancedLaneDetection.exe
+     1>Done Building Project "E:\projects\vsProjects\AdvancedLaneDetection\AdvancedLaneDetection\AdvancedLaneDetection\AdvancedLaneDetection.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.47
